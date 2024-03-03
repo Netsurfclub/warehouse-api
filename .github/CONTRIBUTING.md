@@ -1,10 +1,13 @@
-## Contributing Guide
+Contributing Guide
+==================
 
-### Contact
+Contact
+-------
 
 - E-mail: juhasz.bence@netsurfclub.hu
 
-### Opening a pull request
+Opening a pull request
+----------------------
 
 1. If you are opening a pull request, please use the naming convention pattern for branches below: ```[github-username]/[brief-change-description]```
 
