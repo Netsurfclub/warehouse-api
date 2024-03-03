@@ -1,17 +1,22 @@
-## warehouse-api
+warehouse-api
+=============
 
-Inventory management application's backend.
+### Inventory management application's backend.
+
+[![Continuous integration](https://github.com/Netsurfclub/warehouse-api/actions/workflows/build.yml/badge.svg)](https://github.com/Netsurfclub/warehouse-api/actions/workflows/build.yml)
 
 [Contributing Guide](.github/CONTRIBUTING.md)
 
-### Prerequisites
+Prerequisites
+-------------
 
 To avoid any unexpected application behaviour, make sure you have installed the following tools with the proper version numbers:
 
 - [Eclipse Temurin JDK](https://adoptium.net/temurin/releases)
 - [Maven 3.9.6](https://maven.apache.org/download.cgi)
 
-### Running project locally
+Running project locally
+-----------------------
 
 ```bash
 mvn clean package
