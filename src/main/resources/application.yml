@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: warehouse-api
   config:
     activate:
       on-profile: default
