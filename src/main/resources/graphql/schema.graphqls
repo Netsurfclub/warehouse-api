@@ -1,6 +1,5 @@
 type Query {
     getMessage: Message
-    getProducts: [Product]
 }
 
 type Message {
