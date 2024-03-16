@@ -18,7 +18,7 @@ class ProductRepository {
             supplier = supplier,
             price = 10.00,
             unit = "darab",
-            photo = "1b500d90-345e-4570-aa39-7d9ad0f49bf0.jpg",
+            photo = null,
             onStock = 10,
         )
 
@@ -28,7 +28,7 @@ class ProductRepository {
             supplier = supplier,
             price = 20.00,
             unit = "darab",
-            photo = "5aea2031-6e2c-4a21-8729-de882983ae37.png",
+            photo = null,
             onStock = 100,
         )
 
@@ -38,7 +38,7 @@ class ProductRepository {
             supplier = supplier,
             price = 50.00,
             unit = "darab",
-            photo = "12ea3431-28b1-41ad-b80d-402a5bf46a4a.jpg",
+            photo = null,
             onStock = 1
         )
 
