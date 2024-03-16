@@ -11,6 +11,10 @@ type Product {
     id: ID!
     name: String
     supplier: Supplier
+    price: Float
+    unit: String
+    photo: String
+    onStock: Int
 }
 
 type Supplier {
