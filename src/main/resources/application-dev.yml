@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: warehouse-api
   config:
     activate:
       on-profile: dev
@@ -16,3 +18,8 @@ spring:
       hibernate:
         format_sql: true
     open-in-view: off
+  graphql:
+    graphiql:
+      enabled: true
+    cors:
+      allowed-origins: "*"
