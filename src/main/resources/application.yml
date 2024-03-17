@@ -10,7 +10,6 @@ spring:
     password: 12345
     driverClassName: org.h2.Driver
   jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
     open-in-view: off
   h2:
     console:
