@@ -1,7 +1,6 @@
 package hu.netsurf.warehouse.model
 
-import hu.netsurf.warehouse.constants.TableSchemaConstants.PRODUCTS_TABLE_NAME
-import hu.netsurf.warehouse.constants.TableSchemaConstants.SUPPLIER_ID_JOIN_COLUMN_NAME
+import hu.netsurf.warehouse.constants.TableSchemaConstants
 import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
 import jakarta.persistence.GenerationType
@@ -11,7 +10,7 @@ import jakarta.persistence.ManyToOne
 import jakarta.persistence.Table
 
 @Entity
-@Table(name = PRODUCTS_TABLE_NAME)
+@Table(name = TableSchemaConstants.PRODUCTS_TABLE_NAME)
 data class Product(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,7 +19,7 @@ data class Product(
     var name: String = "",
 
     @ManyToOne
-    @JoinColumn(name = SUPPLIER_ID_JOIN_COLUMN_NAME)
+    @JoinColumn(name = "supplier_id")
     var supplier: Supplier = Supplier(),
 
     var price: Double = 0.0,
