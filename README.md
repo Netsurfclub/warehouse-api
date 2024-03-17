@@ -26,14 +26,17 @@ Before you start, make sure you set up a MySQL database locally on your machine,
 2. Generate `database-secrets.yml` configuration file with this [shell script](./generate-database-secrets-file.sh)
 3. Finally, provide your local database's secrets in place of `null` values
 
-**Note that: this configuration file is excluded from git tracking, so don't worry about committing your database secrets!**
+**Note that:**
+
+- The `database-secrets.yml` configuration file is excluded from git tracking, not to accidentally committing secrets to the GitHub repository.
+- For local development don't use the **default** Spring profile, it is configured with an H2 in-memory database for passing the Continuous integration GitHub check.
 
 ### Start application
 
 ```bash
 mvn clean package
 
-mvn spring-boot:run -Dspring-boot.run.profiles=default
+mvn spring-boot:run -Dspring-boot.run.profiles=dev
 ```
 
 To view GraphQL queries and mutations, open [GraphiQL](http://localhost:8080/graphiql) in your web browser.
