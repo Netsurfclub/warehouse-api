@@ -1,3 +1,8 @@
+⚠️This repository is deprecated and no longer maintained.
+==========================================================
+The warehouse application itself will be part of the ERP project. Repository: [erp-api](https://github.com/Netsurfclub/erp-api)
+-------------------------------------------------------------------------------------------------------------------------------
+
 warehouse-api
 =============
 
